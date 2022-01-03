@@ -75,24 +75,50 @@ All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `ar
 
 ### Ref-Youtube-VOS
 
+| Backbone| J&F | CFBI J&F  | Pretrain | Model | Submission | CFBI Submission | 
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
+| ResNet-50 | 55.6 | 59.4 |  |  |  |  |
+| ResNet-101 | 57.3 | 60.3 |  |  |  |  |
+| Swin-T | 58.7 | 61.2 |  |  |  |  |
+| Swin-L | 62.4 | 63.3 |  |  |  |  |
+| Video-Swin-T* | 55.8 | - | - |  |  | - |
+| Video-Swin-T | 59.4 | - |  |  |  | - |
+| Video-Swin-S | 60.1 | - |  |  |  | - |
+| Video-Swin-B | 62.9 | - |  |  |  | - |
 
+\* indicates the model is trained from scratch.
 
 ### Ref-DAVIS17
 
-| Backbone| J&F | CFBI J&F  | Pretrain | Model | Submission | CFBI Submission | 
-| :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| ResNet-50 | 55.6 | 59.4 |  |  |  | |
-| ResNet-101 | 57.3 | 60.3 |  |  |  | |
-| Swin-T | 58.7 | 61.2 |  |  |  | |
-| Swin-L | 62.4 | 63.3 |  |  |  | |
-| Video-Swin-T* | 55.8 |  |  |  |  | |
-| Video-Swin-T | 59.4 |  |  |  |  | |
-| Video-Swin-S | 60.1 |  |  |  |  | |
-| Video-Swin-B | 62.9 |  |  |  |  | |
+As described in the paper, we report the results using the model trained on Ref-Youtube-VOS without finetune.
+
+| Backbone| J&F | J | F | Model | 
+| :----: | :----: | :----: | :----: | :----: |
+| ResNet-50 | 58.5 | 55.8 | 61.3 |  |
+| Swin-L | 60.5 | 57.6 | 63.4 |  |
+| Video-Swin-B | 61.1 | 58.1 | 64.1 |  |
+
 
 ### A2D-Sentences
 
+The pretrained models are the same as those provided for Ref-Youtube-VOS.
+
+| Backbone| Overall IoU | Mean IoU | mAP  | Pretrain | Model |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| Video-Swin-T | 77.6 | 69.6 | 52.8 |  |  |
+| Video-Swin-S | 77.7 | 69.8 | 53.9 |  |  |
+| Video-Swin-B | 78.6 | 70.3 | 55.0 |  |  |
+
+
 ### JHMDB-Sentences
+
+As described in the paper, we report the results using the model trained on A2D-Sentences without finetune.
+
+| Backbone| Overall IoU | Mean IoU | mAP  | Model |
+| :----: | :----: | :----: | :----: | :----: | 
+| Video-Swin-T | 71.9 | 71.0 | 42.2 |  |
+| Video-Swin-S | 72.8 | 71.5 | 42.4 |  |
+| Video-Swin-B | 73.0 | 71.8 | 43.7 |  | 
 
 
 ## Get Started
