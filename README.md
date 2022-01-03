@@ -73,15 +73,15 @@ All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `ar
 
 | Backbone &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  | Args |
 | ---------- | ---------------------------------------- |
-| ResNet-50 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  | 
-| ResNet-101 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone resnet101 |
-| Swin-T &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_t_p4w7 --backbone_pretrained swin_pretrained/swin_tiny_patch4_window7_224.pth | 
-| Swin-S &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_s_p4w7 --backbone_pretrained swin_pretrained/swin_small_patch4_window7_224.pth | 
-| Swin-B &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_b_p4w7 --backbone_pretrained swin_pretrained/swin_base_patch4_window7_224_22k.pth  | 
-| Swin-L &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_l_p4w7 --backbone_pretrained swin_pretrained/swin_large_patch4_window7_224_22k.pth --use_checkpoint | 
-| Video-Swin-T &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone video_swin_t_p4w7 --backbone_pretrained video_swin_pretrained/swin_tiny_patch244_window877_kinetics400_1k.pth | 
-| Video-Swin-S &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone video_swin_s_p4w7 --backbone_pretrained video_swin_pretrained/swin_small_patch244_window877_kinetics400_1k.pth --use_checkpoint | 
-| Video-Swin-B &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone video_swin_b_p4w7 --backbone_pretrained video_swin_pretrained/swin_base_patch244_window877_kinetics600_22k.pth --use_checkpoint | 
+| ResNet-50 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  | 
+| ResNet-101 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone resnet101 |
+| Swin-T &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_t_p4w7 --backbone_pretrained swin_pretrained/swin_tiny_patch4_window7_224.pth | 
+| Swin-S &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_s_p4w7 --backbone_pretrained swin_pretrained/swin_small_patch4_window7_224.pth | 
+| Swin-B &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_b_p4w7 --backbone_pretrained swin_pretrained/swin_base_patch4_window7_224_22k.pth  | 
+| Swin-L &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone swin_l_p4w7 --backbone_pretrained swin_pretrained/swin_large_patch4_window7_224_22k.pth --use_checkpoint | 
+| Video-Swin-T &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone video_swin_t_p4w7 --backbone_pretrained video_swin_pretrained/swin_tiny_patch244_window877_kinetics400_1k.pth | 
+| Video-Swin-S &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone video_swin_s_p4w7 --backbone_pretrained video_swin_pretrained/swin_small_patch244_window877_kinetics400_1k.pth --use_checkpoint | 
+| Video-Swin-B &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone video_swin_b_p4w7 --backbone_pretrained video_swin_pretrained/swin_base_patch244_window877_kinetics600_22k.pth --use_checkpoint | 
 
 ### Ref-Youtube-VOS
 
