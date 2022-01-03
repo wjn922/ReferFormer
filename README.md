@@ -69,25 +69,26 @@ ReferFormer/
 
 ## Model Zoo
 
-All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `args` parameters to use different backbones. If you encounter the `OOM` error, please add the command `--use_checkpoint`.
+All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `args` parameters to use different backbones. 
+**Note:** If you encounter the `OOM` error, please add the command `--use_checkpoint` (For the Swin-L, Video-Swin-S and Video-Swin-B models, we use this command).
 
-| Backbone &emsp; &emsp; &emsp;  | Args |
-| ---------- | ---------------------------------------- |
-| ResNet-50 &emsp; &emsp; &emsp; &emsp; |  | 
-| ResNet-101 &emsp; &emsp; &emsp; &emsp; | --backbone resnet101 |
-| Swin-T &emsp; &emsp; &emsp; &emsp; | --backbone swin_t_p4w7 --backbone_pretrained swin_pretrained/swin_tiny_patch4_window7_224.pth | 
-| Swin-S &emsp; &emsp; &emsp; &emsp; | --backbone swin_s_p4w7 --backbone_pretrained swin_pretrained/swin_small_patch4_window7_224.pth | 
-| Swin-B &emsp; &emsp; &emsp; &emsp; | --backbone swin_b_p4w7 --backbone_pretrained swin_pretrained/swin_base_patch4_window7_224_22k.pth  | 
-| Swin-L &emsp; &emsp; &emsp; &emsp; | --backbone swin_l_p4w7 --backbone_pretrained swin_pretrained/swin_large_patch4_window7_224_22k.pth --use_checkpoint | 
-| Video-Swin-T &emsp; &emsp; &emsp; &emsp; | --backbone video_swin_t_p4w7 --backbone_pretrained video_swin_pretrained/swin_tiny_patch244_window877_kinetics400_1k.pth | 
-| Video-Swin-S &emsp; &emsp; &emsp; &emsp; | --backbone video_swin_s_p4w7 --backbone_pretrained video_swin_pretrained/swin_small_patch244_window877_kinetics400_1k.pth --use_checkpoint | 
-| Video-Swin-B &emsp; &emsp; &emsp; &emsp; | --backbone video_swin_b_p4w7 --backbone_pretrained video_swin_pretrained/swin_base_patch244_window877_kinetics600_22k.pth --use_checkpoint | 
 
 ### Ref-Youtube-VOS
 
 
 
 ### Ref-DAVIS17
+
+| Backbone| J&F | CFBI J&F  | Pretrain | Model | Submission | CFBI Submission | 
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
+| ResNet-50 | 55.6 | 59.4 |  |  |  | |
+| ResNet-101 | 57.3 | 60.3 |  |  |  | |
+| Swin-T | 58.7 | 61.2 |  |  |  | |
+| Swin-L | 62.4 | 63.3 |  |  |  | |
+| Video-Swin-T$\dagger$ | 55.8 |  |  |  |  | |
+| Video-Swin-T | 59.4 |  |  |  |  | |
+| Video-Swin-S | 60.1 |  |  |  |  | |
+| Video-Swin-B | 62.9 |  |  |  |  | |
 
 ### A2D-Sentences
 
