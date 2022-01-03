@@ -85,7 +85,7 @@ All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `ar
 | ResNet-101 | 57.3 | 60.3 |  |  |  | |
 | Swin-T | 58.7 | 61.2 |  |  |  | |
 | Swin-L | 62.4 | 63.3 |  |  |  | |
-| Video-Swin-T$\dagger$ | 55.8 |  |  |  |  | |
+| Video-Swin-T* | 55.8 |  |  |  |  | |
 | Video-Swin-T | 59.4 |  |  |  |  | |
 | Video-Swin-S | 60.1 |  |  |  |  | |
 | Video-Swin-B | 62.9 |  |  |  |  | |
