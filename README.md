@@ -70,21 +70,22 @@ ReferFormer/
 ## Model Zoo
 
 All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `args` parameters to use different backbones. 
-**Note:** If you encounter the `OOM` error, please add the command `--use_checkpoint` (For the Swin-L, Video-Swin-S and Video-Swin-B models, we use this command).
+
+**Note:** If you encounter the `OOM` error, please add the command `--use_checkpoint` (we add this command for Swin-L, Video-Swin-S and Video-Swin-B models).
 
 
 ### Ref-Youtube-VOS
 
 | Backbone| J&F | CFBI J&F  | Pretrain | Model | Submission | CFBI Submission | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| ResNet-50 | 55.6 | 59.4 |  |  |  |  |
-| ResNet-101 | 57.3 | 60.3 |  |  |  |  |
-| Swin-T | 58.7 | 61.2 |  |  |  |  |
-| Swin-L | 62.4 | 63.3 |  |  |  |  |
-| Video-Swin-T* | 55.8 | - | - |  |  | - |
-| Video-Swin-T | 59.4 | - |  |  |  | - |
-| Video-Swin-S | 60.1 | - |  |  |  | - |
-| Video-Swin-B | 62.9 | - |  |  |  | - |
+| ResNet-50 | 55.6 | 59.4 |  |  | [link](https://drive.google.com/file/d/1IXKu8a06ppPAVBvy4Y0UfcKhCat4HRJt/view?usp=sharing) | [link](https://drive.google.com/file/d/1VJAKZ_j7kQFpocv_vDzER47CXWwAAE8h/view?usp=sharing) |
+| ResNet-101 | 57.3 | 60.3 |  |  | [link](https://drive.google.com/file/d/1cFxjVW2RlwjoVYR1M6NlkRpv9L3tPlcZ/view?usp=sharing) | [link](https://drive.google.com/file/d/1RPnFPqf7iiVypc7QbN-ev6s6xfmD-m5c/view?usp=sharing) |
+| Swin-T | 58.7 | 61.2 |  |  | [link](https://drive.google.com/file/d/1eZZ-2zz0gdCwPrislGP3WKAHk-RnNY7v/view?usp=sharing) | [link](https://drive.google.com/file/d/1O9B35oieBfo7sRjxTpSyFz52J2AAHLce/view?usp=sharing) |
+| Swin-L | 62.4 | 63.3 |  |  | [link](https://drive.google.com/file/d/1uxBwbKdlilaCNt-RbdcPj1LshA-WY9Q6/view?usp=sharing) | [link](https://drive.google.com/file/d/16kVmJzv5oXzk3zGcfMcb2sEiN6HTOCmW/view?usp=sharing) |
+| Video-Swin-T* | 55.8 | - | - |  | [link](https://drive.google.com/file/d/18G0qIeZndacj3Y0EuyJsZFeFRWJ0_3O_/view?usp=sharing) | - |
+| Video-Swin-T | 59.4 | - |  |  | [link](https://drive.google.com/file/d/1nhjvDWgMWufMGAjOKesgyLRB_-Ct6kXP/view?usp=sharing) | - |
+| Video-Swin-S | 60.1 | - |  |  | [link](https://drive.google.com/file/d/1mhb0UAaJkTFYmGrwXHHJuaXVp-0BSkgm/view?usp=sharing) | - |
+| Video-Swin-B | 62.9 | - |  |  | [link](https://drive.google.com/file/d/1dAQdr2RqCxYUmOVQ4jFE-vv5zavNhz7B/view?usp=sharing) | - |
 
 \* indicates the model is trained from scratch.
 
@@ -114,7 +115,7 @@ The pretrained models are the same as those provided for Ref-Youtube-VOS.
 
 As described in the paper, we report the results using the model trained on A2D-Sentences without finetune.
 
-| Backbone| Overall IoU | Mean IoU | mAP  | Model |
+| Backbone| Overall IoU | Mean IoU | mAP  | Model | 
 | :----: | :----: | :----: | :----: | :----: | 
 | Video-Swin-T | 71.9 | 71.0 | 42.2 |  |
 | Video-Swin-S | 72.8 | 71.5 | 42.4 |  |
