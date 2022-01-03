@@ -71,7 +71,7 @@ ReferFormer/
 
 All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `args` parameters to use different backbones. If you encounter the `OOM` error, please add the command `--use_checkpoint`.
 
-| Backbone &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Args |
+| Backbone &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  | Args |
 | ---------- | ---------------------------------------- |
 | ResNet-50 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  | 
 | ResNet-101 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | --backbone resnet101 |
