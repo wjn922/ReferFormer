@@ -25,9 +25,8 @@ In this work, we propose a simple and unified framework built upon Transformer, 
 
 We test the code in the following environments, other versions may also be compatible:
 
-- Linux
-- Python 3.7
 - CUDA 11.1
+- Python 3.7
 - Pytorch 1.8.1
 
 
@@ -73,7 +72,7 @@ ReferFormer/
 All the models are trained using 8 NVIDIA Tesla V100 GPU. You may change the `args` parameters to use different backbones. If you encounter the `OOM` error, please add the command `--use_checkpoint`.
 
 | Backbone   | Args |
-| ------ | ------------------------------------------------ |
+| ---------- | ---------------------------------------- |
 | ResNet-50 |  | 
 | ResNet-101 | --backbone resnet101 |
 | Swin-T | --backbone swin_t_p4w7 --backbone_pretrained swin_pretrained/swin_tiny_patch4_window7_224.pth | 
