@@ -11,7 +11,7 @@ Language as Queries for Referring Object Segmentation
 </h1>
 </div>
 
-<p align="center"><img src="docs/network.png" width="1000"/></p>
+<p align="center"><img src="docs/network.png" width="800"/></p>
 
 > [**Language as Queries for Referring Video Object Segmentation**](https://arxiv.org/abs/2201.00487)
 >
