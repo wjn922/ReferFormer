@@ -9,7 +9,7 @@ The official implementation of the paper:
 <div align="center">
 <h1>
 <b>
-Language as Queries for <br> Referring Video Object Segmentation
+Language as Queries for Referring <br> Video Object Segmentation
 </b>
 </h1>
 </div>
