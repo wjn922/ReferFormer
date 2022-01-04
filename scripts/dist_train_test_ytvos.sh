@@ -30,15 +30,3 @@ python3 inference_ytvos.py --with_box_refine --binary --freeze_text_encoder \
 
 echo "Working path is: ${OUTPUT_DIR}"
 
-
-# ./scripts/hdfs_dist_load_pretrain_train_test_ytvos.sh pretrain_work_dirs/r50_binary_freezetext \
-# pretrain_dirs/r50_deform_roberta_pretrain/checkpoint.pth \
-# --binary --freeze_text_encoder --visualize \
-# --epochs 6 --lr_drop 3 5 
-# [backbone]
-# or 
-# ./scripts/hdfs_dist_load_pretrain_train_test_ytvos.sh pretrain_work_dirs/r50_binary_freezetext \
-# hdfs://haruna/home/byte_arnold_hl_vc/user/wujiannan/rvosnet/pretrain_dirs/r50_deform_roberta_refcoco_epoch12/checkpoint.pth \
-# --binary --freeze_text_encoder --visualize \
-# --epochs 6 --lr_drop 3 5 
-# [backbone]
