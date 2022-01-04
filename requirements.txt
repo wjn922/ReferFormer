@@ -1,0 +1,12 @@
+transformers==4.12.5
+cython 
+scipy
+opencv-python
+pillow
+scikit-image
+timm
+einops
+pandas
+imgaug
+h5py
+av
