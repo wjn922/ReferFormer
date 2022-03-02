@@ -84,13 +84,13 @@ def get_args_parser():
                         help="L1 box coefficient in the matching cost")
     parser.add_argument('--set_cost_giou', default=2, type=float,
                         help="giou box coefficient in the matching cost")
-    parser.add_argument('--set_cost_mask', default=1, type=float,
+    parser.add_argument('--set_cost_mask', default=2, type=float,
                         help="mask coefficient in the matching cost")
-    parser.add_argument('--set_cost_dice', default=1, type=float,
+    parser.add_argument('--set_cost_dice', default=5, type=float,
                         help="mask coefficient in the matching cost")
     # * Loss coefficients
-    parser.add_argument('--mask_loss_coef', default=1, type=float)
-    parser.add_argument('--dice_loss_coef', default=1, type=float)
+    parser.add_argument('--mask_loss_coef', default=2, type=float)
+    parser.add_argument('--dice_loss_coef', default=5, type=float)
     parser.add_argument('--cls_loss_coef', default=2, type=float)
     parser.add_argument('--bbox_loss_coef', default=5, type=float)
     parser.add_argument('--giou_loss_coef', default=2, type=float)
