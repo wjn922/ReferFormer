@@ -31,10 +31,12 @@ In this work, we propose a simple and unified framework built upon Transformer, 
 ## Demo
 
 - Ref-DAVIS17
-<img src="docs/davis_demo1.gif" width="400"/><img src="docs/davis_dem2.gif" width="400"/>
+
+<img src="docs/davis_demo1.gif" width="400"/><img src="docs/davis_demo2.gif" width="400"/>
 
 - Ref-Youtube-VOS
-<img src="docs/ytvos_demo1.gif" width="400"/><img src="docs/ytvos_dem2.gif" width="400"/>
+
+<img src="docs/ytvos_demo1.gif" width="400"/><img src="docs/ytvos_demo2.gif" width="400"/>
 
 
 
