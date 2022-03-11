@@ -17,6 +17,16 @@ To evaluate the results, please upload the zip file to the [competition server](
 
 \* indicates the model is trained from scratch.
 
+
+Joint training with Ref-COCO/+/g datasets.
+| Backbone| J&F | J | F | Model | Submission | 
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| ResNet-50 | 58.7 | 57.4 | 60.1 | [model](https://drive.google.com/file/d/1tXgC_GRmQCvHjhlNoT0uXc_0oQ21d0hk/view?usp=sharing) | [link](https://drive.google.com/file/d/1Vbrl11mBfjwpM-H4DOleyD1i2STCN-SM/view?usp=sharing) |
+| ResNet-101 | 59.3 | 58.1 | 60.4 | [model](https://drive.google.com/file/d/1LUflgRgwZgTpYr5V9qeDKTIlBjLqHOVj/view?usp=sharing) | [link](https://drive.google.com/file/d/1BANQcqY34SebORZ9_PTF4C-QWuCJl2_W/view?usp=sharing) |
+| Swin-L | 64.2 | 62.3 | 66.2 | [model](https://drive.google.com/file/d/1JeppEr8m0O9844xncSfSZrYE_NH8oXb7/view?usp=sharing) | [link](https://drive.google.com/file/d/14klluhPeQhhNKl3EBibtiziChSKfBHU0/view?usp=sharing) |
+| Video-Swin-T | 62.6 | 59.9 | 63.3 | [model](https://drive.google.com/file/d/1rVO2ZC4U4symSh9Ifgg68YGdYBZH00MT/view?usp=sharing) | [link](https://drive.google.com/file/d/1-i67hTmo-qpyICbJ9vbTeQdPaL2VnbXQ/view?usp=sharing) |
+| Video-Swin-B | 63.3 | 61.4 | 65.2 | [model](https://drive.google.com/file/d/15ifI2yd9oDqMB05DgjhNVMe2MGXVvZnj/view?usp=sharing) | [link](https://drive.google.com/file/d/1II1gZl99FGECkS7DR6B8MszxAKadu-9y/view?usp=sharing) |
+
 ### Inference & Evaluation
 
 
@@ -42,6 +52,9 @@ To evaluate the results, please upload the zip file to the [competition server](
 
 ### Training
 
+
+- Finetune 
+
 The following command includes the training and inference stages.
 
 ```
@@ -52,4 +65,18 @@ For example, training the Video-Swin-Tiny model, run the following command:
 
 ```
 ./scripts/dist_train_test_ytvos.sh ytvos_dirs/video_swin_tiny pretrained_weights/video_swin_tiny_pretrained.pth --backbone video_swin_t_p4w7 
+```
+
+- Train from scratch
+
+The following command includes the training and inference stages.
+
+```
+./scripts/dist_train_test_ytvos_scratch.sh [/path/to/output_dir] --backbone [backbone] --backbone_pretrained [/path/to/backbone_pretrained_weight] [other args]
+```
+
+For example, training the Video-Swin-Tiny model, run the following command:
+
+```
+./scripts/dist_train_test_ytvos.sh ytvos_dirs/video_swin_tiny_scratch --backbone video_swin_t_p4w7 --backbone_pretrained video_swin_pretrained/swin_tiny_patch244_window877_kinetics400_1k.pth
 ```
