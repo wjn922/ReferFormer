@@ -40,7 +40,7 @@ For example, training the Video-Swin-Tiny model, run the following command:
 - Train from scratch
 
 ```
-python3 -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --dataset_file a2d --with_box_refine --freeze_text_encoder --epochs 12 --lr_drop 8 10 --dropout 0 --weight_decay 1e-4 --output_dir=[/path/to/output_dir] --backbone [backbone] [other args]
+python3 -m torch.distributed.launch --nproc_per_node=8 --use_env main.py --dataset_file a2d --with_box_refine --freeze_text_encoder --epochs 12 --lr_drop 8 10 --dropout 0 --weight_decay 1e-4 --output_dir=[/path/to/output_dir] --backbone [backbone] --backbone_pretrained [/path/to/pretrained backbone weight] [other args]
 ```
 
 For example, training the Video-Swin-Tiny model from scratch and set window size as 6, run the following command:
