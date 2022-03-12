@@ -118,7 +118,8 @@ Joint training with Ref-COCO/+/g datasets.
 | ResNet-101 | 59.3 | 58.1 | 60.4 | [model](https://drive.google.com/file/d/1LUflgRgwZgTpYr5V9qeDKTIlBjLqHOVj/view?usp=sharing) | [link](https://drive.google.com/file/d/1BANQcqY34SebORZ9_PTF4C-QWuCJl2_W/view?usp=sharing) |
 | Swin-L | 64.2 | 62.3 | 66.2 | [model](https://drive.google.com/file/d/1JeppEr8m0O9844xncSfSZrYE_NH8oXb7/view?usp=sharing) | [link](https://drive.google.com/file/d/14klluhPeQhhNKl3EBibtiziChSKfBHU0/view?usp=sharing) |
 | Video-Swin-T | 62.6 | 59.9 | 63.3 | [model](https://drive.google.com/file/d/1rVO2ZC4U4symSh9Ifgg68YGdYBZH00MT/view?usp=sharing) | [link](https://drive.google.com/file/d/1-i67hTmo-qpyICbJ9vbTeQdPaL2VnbXQ/view?usp=sharing) |
-| Video-Swin-B | 63.3 | 61.4 | 65.2 | [model](https://drive.google.com/file/d/15ifI2yd9oDqMB05DgjhNVMe2MGXVvZnj/view?usp=sharing) | [link](https://drive.google.com/file/d/1II1gZl99FGECkS7DR6B8MszxAKadu-9y/view?usp=sharing) |
+| Video-Swin-S | 63.3 | 61.4 | 65.2 | [model](https://drive.google.com/file/d/15ifI2yd9oDqMB05DgjhNVMe2MGXVvZnj/view?usp=sharing) | [link](https://drive.google.com/file/d/1II1gZl99FGECkS7DR6B8MszxAKadu-9y/view?usp=sharing) |
+| Video-Swin-B | 64.9 | 62.8 | 67.0 | [model](https://drive.google.com/file/d/19XO5VoR6qTE3VNLF-IjYzabL-2tb9E14/view?usp=sharing) | [link](https://drive.google.com/file/d/11FTV-B3MkWfl4azNI-aRmiRqQ9TBXG03/view?usp=sharing) |
 
 
 
@@ -183,3 +184,4 @@ This repo is based on [Deformable DETR](https://github.com/fundamentalvision/Def
       year={2022},
 }
 ```
+
