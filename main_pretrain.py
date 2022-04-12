@@ -29,7 +29,6 @@ def main(args):
     os.environ["MDETR_CPU_REDUCE"] = "1"
 
     args.masks = True
-    assert args.num_queries % args.num_frames == 0
     assert args.dataset_file in ["refcoco", "refcoco+", "refcocog", "all"]
 
     utils.init_distributed_mode(args)
@@ -63,26 +62,33 @@ def main(args):
                 break
         return out
 
-    for n, p in model_without_ddp.named_parameters():
-        print(n)
+    # for n, p in model_without_ddp.named_parameters():
+    #    print(n)
 
     param_dicts = [
         {
             "params":
                 [p for n, p in model_without_ddp.named_parameters()
-                 if not match_name_keywords(n, args.lr_backbone_names) and p.requires_grad],
+                 if not match_name_keywords(n, args.lr_backbone_names) and not match_name_keywords(n, args.lr_text_encoder_names) 
+                 and not match_name_keywords(n, args.lr_linear_proj_names) and p.requires_grad],
             "lr": args.lr,
         },
         {
-            "params": 
-                [p for n, p in model_without_ddp.named_parameters() 
-                 if match_name_keywords(n, args.lr_backbone_names) and p.requires_grad],
+            "params": [p for n, p in model_without_ddp.named_parameters() if match_name_keywords(n, args.lr_backbone_names) and p.requires_grad],
             "lr": args.lr_backbone,
+        },
+        {
+            "params": [p for n, p in model_without_ddp.named_parameters() if match_name_keywords(n, args.lr_text_encoder_names) and p.requires_grad],
+            "lr": args.lr_text_encoder,
+        },
+        {
+            "params": [p for n, p in model_without_ddp.named_parameters() if match_name_keywords(n, args.lr_linear_proj_names) and p.requires_grad],
+            "lr": args.lr * args.lr_linear_proj_mult,
         }
     ]
     optimizer = torch.optim.AdamW(param_dicts, lr=args.lr,
                                   weight_decay=args.weight_decay)
-    lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, args.lr_drop)
+    lr_scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, args.lr_drop)
 
     # build train  dataset
     if args.dataset_file != "all":
@@ -93,7 +99,8 @@ def main(args):
             [build_dataset(name, image_set="train", args=args) for name in dataset_names]
         )
 
-    print("Train dataset sample number: ", len(dataset_train))
+    print("\nTrain dataset sample number: ", len(dataset_train))
+    print("\n")
 
     if args.distributed:
         if args.cache_mode:
@@ -244,7 +251,8 @@ def main(args):
         if args.output_dir:
             checkpoint_paths = [output_dir / 'checkpoint.pth']
             # extra checkpoint before LR drop and every epochs
-            if (epoch + 1) % args.lr_drop == 0 or (epoch + 1) % 1 == 0:
+            # if (epoch + 1) % args.lr_drop == 0 or (epoch + 1) % 1 == 0:
+            if (epoch + 1) % 1 == 0:
                 checkpoint_paths.append(output_dir / f'checkpoint{epoch:04}.pth')
             for checkpoint_path in checkpoint_paths:
                 utils.save_on_master({
@@ -293,6 +301,4 @@ if __name__ == '__main__':
     if args.output_dir:
         Path(args.output_dir).mkdir(parents=True, exist_ok=True)
     main(args)
-
-
 
