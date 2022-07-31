@@ -6,6 +6,7 @@ from .davis import build as build_davis
 from .a2d import build as build_a2d
 from .jhmdb import build as build_jhmdb
 from .refexp import build as build_refexp
+from .concat_dataset import build as build_joint
 
 
 def get_coco_api_from_dataset(dataset):
@@ -30,6 +31,7 @@ def build_dataset(dataset_file: str, image_set: str, args):
     # for pretraining
     if dataset_file == "refcoco" or dataset_file == "refcoco+" or dataset_file == "refcocog":
         return build_refexp(dataset_file, image_set, args)
+    # for joint training of refcoco and ytvos
+    if dataset_file == 'joint':
+        return build_joint(image_set, args)
     raise ValueError(f'dataset {dataset_file} not supported')
-
-
