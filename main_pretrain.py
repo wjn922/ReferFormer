@@ -149,7 +149,7 @@ def main(args):
         if args.masks:
             iou_types.append("segm")
 
-        evaluator_list.append(CocoEvaluator(base_ds, tuple(iou_types)))
+        evaluator_list.append(CocoEvaluator(base_ds, tuple(iou_types), useCats=False))
         # TODO: currently ont support RefExpEvaluator (memory error)
         return evaluator_list
 

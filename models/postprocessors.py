@@ -94,7 +94,8 @@ class PostProcess(nn.Module):
         boxes = boxes * scale_fct[:, None, :] # [bs, num_queries, 4]
 
         assert len(scores) == len(labels) == len(boxes)
-        results = [{"scores": s, "labels": l, "boxes": b} for s, l, b in zip(scores, labels, boxes)]
+        # binary for the pretraining
+        results = [{"scores": s, "labels": torch.ones_like(l), "boxes": b} for s, l, b in zip(scores, labels, boxes)]
 
         return results
 
