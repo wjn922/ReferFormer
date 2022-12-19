@@ -2,6 +2,37 @@
 
 Create a new directory `data` to store all the datasets.
 
+## Ref-COCO
+
+Download the dataset from the official website [COCO](https://cocodataset.org/#download).   
+RefCOCO/+/g use the COCO2014 train split.
+Download the annotation files from [github](https://github.com/lichengunc/refer).
+
+Convert the annotation files:
+
+```
+python3 tools/data/convert_refexp_to_coco.py
+```
+
+Finally, we expect the directory structure to be the following:
+
+```
+ReferFormer
+├── data
+│   ├── coco
+│   │   ├── train2014
+│   │   ├── refcoco
+│   │   │   ├── instances_refcoco_train.json
+│   │   │   ├── instances_refcoco_val.json
+│   │   ├── refcoco+
+│   │   │   ├── instances_refcoco+_train.json
+│   │   │   ├── instances_refcoco+_val.json
+│   │   ├── refcocog
+│   │   │   ├── instances_refcocog_train.json
+│   │   │   ├── instances_refcocog_val.json
+```
+
+
 ## Ref-Youtube-VOS
 
 Download the dataset from the competition's website [here](https://competitions.codalab.org/competitions/29139#participate-get_data).

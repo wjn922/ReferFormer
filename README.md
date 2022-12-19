@@ -25,6 +25,7 @@ Language as Queries for Referring <br> Video Object Segmentation
 In this work, we propose a simple and unified framework built upon Transformer, termed ReferFormer. It views the language as queries and directly attends to the most relevant regions in the video frames. Concretely, we introduce a small set of object queries conditioned on the language as the input to the Transformer. In this manner, all the queries are obligated to find the referred objects only. They are eventually transformed into dynamic kernels which capture the crucial object-level information, and play the role of convolution filters to generate the segmentation masks from feature maps. The object tracking is achieved naturally by linking the corresponding queries across frames. This mechanism greatly simplifies the pipeline and the end-to-end framework is significantly different from the previous methods. Extensive experiments on Ref-Youtube-VOS, Ref-DAVIS17, A2D-Sentences and JHMDB-Sentences show the effectiveness of ReferFormer. 
 
 ## Update
+- **(2022/12/19)** We add the results on RefCOCO/+/g validation set.
 - **(2022/07/31)** We upload the files for joint-training. 
 - **(2022/04/04)** We upload the data conversion and main files for pre-training. 
 - **(2022/03/11)** We upload the model on Ref-Youtube-VOS by jointly training Ref-Youtube-VOS and Ref-COCO/+/g, which leads to higher performance.
@@ -163,6 +164,30 @@ As described in the paper, we report the results using the model trained on A2D-
 | Video-Swin-B | 73.0 | 71.8 | 43.7 | [model](https://drive.google.com/file/d/1WlNjKS_Li-1KoUzuPM4MRM4b-oK2Ka7c/view?usp=sharing) | 
 
 \* the model is trained from scratch and set `--num_frames 6`.
+
+
+### RefCOCO/+/g
+
+We also support evaluate on RefCOCO/+/g validation set by using the pretrained weights (num_frames=1).
+Specifically, we measure the P@0.5 and overall IoU (oIoU) for REC and RIS tasks, respectively.
+
+REC (referring epression understanding):
+
+| Backbone| RefCOCO | RefCOCO+ | RefCOCOg  | Model | 
+| :----: | :----: | :----: | :----: | :----: | 
+| ResNet-50 | 85.0 | 79.2 | 79.0 | [weight](https://drive.google.com/file/d/1mJd5zBUv4EYLOKQ0H87-NeAuInyrn577/view?usp=sharing) | 
+| ResNet-101 | 85.4 | 75.8 | 79.9 | [weight](https://drive.google.com/file/d/1EMOwwAygdSfTZiVxI4f0UaVd7P6JzmuM/view?usp=sharing) |
+| Swin-T | 86.7 | 77.2 | 80.6 | [weight](https://drive.google.com/file/d/155sZm6yE7YQ8Y8Ln0ShaVZKLejYORqTQ/view?usp=sharing) |
+| Swin-L | 89.8 | 80.0 | 83.9 | [weight](https://drive.google.com/file/d/1eJKNHvk_KcFuT4k6Te7HDuuSXH2DVOY5/view?usp=sharing) | 
+
+RIS (referring image segmentation):
+
+| Backbone| RefCOCO | RefCOCO+ | RefCOCOg  | Model | 
+| :----: | :----: | :----: | :----: | :----: | 
+| ResNet-50 | 71.1 | 64.1 | 64.1 | [weight](https://drive.google.com/file/d/1mJd5zBUv4EYLOKQ0H87-NeAuInyrn577/view?usp=sharing) | 
+| ResNet-101 | 71.8 | 61.1 | 64.9 | [weight](https://drive.google.com/file/d/1EMOwwAygdSfTZiVxI4f0UaVd7P6JzmuM/view?usp=sharing) |
+| Swin-T | 72.9 | 62.4 | 66.1 | [weight](https://drive.google.com/file/d/155sZm6yE7YQ8Y8Ln0ShaVZKLejYORqTQ/view?usp=sharing) |
+| Swin-L | 77.1 | 65.8 | 69.3 | [weight](https://drive.google.com/file/d/1eJKNHvk_KcFuT4k6Te7HDuuSXH2DVOY5/view?usp=sharing) | 
 
 
 ## Get Started
