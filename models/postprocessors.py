@@ -42,9 +42,9 @@ class A2DSentencesPostProcess(nn.Module):
         # for each batch
         for f_pred_masks, resized_size, orig_size in zip(pred_masks, max_target_sizes, orig_target_sizes):
             f_mask_h, f_mask_w = resized_size  # resized shape without padding
-            f_pred_masks_no_pad = f_pred_masks[:, :f_mask_h, :f_mask_w].unsqueeze(1)  # remove the samples' padding
+            f_pred_masks_no_pad = f_pred_masks[:, :f_mask_h, :f_mask_w].unsqueeze(1)  # remove the samples' padding, [:, 1, h, w]
             # resize the samples back to their original dataset (target) size for evaluation
-            f_pred_masks_processed = F.interpolate(f_pred_masks_no_pad.float(), size=tuple(orig_size.tolist()), mode="nearest")
+            f_pred_masks_processed = F.interpolate(f_pred_masks_no_pad.float(), size=tuple(orig_size.tolist()), mode="nearest") # origin size, [:, 1, h, w]
             f_pred_rle_masks = [mask_util.encode(np.array(mask[0, :, :, np.newaxis], dtype=np.uint8, order="F"))[0]
                                 for mask in f_pred_masks_processed.cpu()]
             processed_pred_masks.append(f_pred_masks_processed)
@@ -146,10 +146,12 @@ class PostProcessSegm(nn.Module):
 
         for i, (cur_mask, t, tt) in enumerate(zip(outputs_masks, max_target_sizes, orig_target_sizes)):
             img_h, img_w = t[0], t[1]
-            results[i]["masks"] = cur_mask[:, :img_h, :img_w].unsqueeze(1)
+            results[i]["masks"] = cur_mask[:, :img_h, :img_w].unsqueeze(1) # [:, 1, h, w]
             results[i]["masks"] = F.interpolate(
                 results[i]["masks"].float(), size=tuple(tt.tolist()), mode="nearest"
             ).byte()
+            results[i]["rle_masks"] = [mask_util.encode(np.array(mask[0, :, :, np.newaxis], dtype=np.uint8, order="F"))[0]
+                    for mask in results[i]["masks"].cpu()]
 
         return results
 

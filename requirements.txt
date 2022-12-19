@@ -1,4 +1,4 @@
-transformers==4.12.5
+transformers
 cython 
 scipy
 opencv-python
