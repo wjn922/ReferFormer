@@ -539,7 +539,11 @@ def targets_to(targets: List[Dict[str, Any]], device):
         "original_id",
     ]
     """
-    return [{k: v.to(device)  for k, v in t.items() if k not in ["caption", "dataset_name", "original_id", "image_id"]} for t in targets]
+    dataset_name = targets[0]["dataset_name"]
+    if dataset_name in ["refcoco", "refcoco+", "refcocog"]:
+        return [{k: v.to(device)  for k, v in t.items() if k not in ["caption", "dataset_name", "original_id"]} for t in targets]
+    else:
+        return [{k: v.to(device)  for k, v in t.items() if k not in ["caption", "dataset_name", "original_id", "image_id"]} for t in targets]
 
 def get_total_grad_norm(parameters, norm_type=2):
     parameters = list(filter(lambda p: p.grad is not None, parameters))
