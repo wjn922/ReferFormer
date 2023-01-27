@@ -539,8 +539,8 @@ def targets_to(targets: List[Dict[str, Any]], device):
         "original_id",
     ]
     """
-    dataset_name = targets[0]["dataset_name"]
-    if dataset_name in ["refcoco", "refcoco+", "refcocog"]:
+    if "dataset_name" in targets[0]:
+        # for ["refcoco", "refcoco+", "refcocog"] evaluation
         return [{k: v.to(device)  for k, v in t.items() if k not in ["caption", "dataset_name", "original_id"]} for t in targets]
     else:
         return [{k: v.to(device)  for k, v in t.items() if k not in ["caption", "dataset_name", "original_id", "image_id"]} for t in targets]
