@@ -103,26 +103,26 @@ To evaluate the results, please upload the zip file to the [competition server](
 
 | Backbone| J&F | CFBI J&F  | Pretrain | Model | Submission | CFBI Submission | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: | 
-| ResNet-50 | 55.6 | 59.4 | [weight](https://drive.google.com/file/d/1mJd5zBUv4EYLOKQ0H87-NeAuInyrn577/view?usp=sharing) | [model](https://drive.google.com/file/d/1VKYIbd3tiuLyWkh7ajnIiA3HZ3_IdvxV/view?usp=sharing) | [link](https://drive.google.com/file/d/1IXKu8a06ppPAVBvy4Y0UfcKhCat4HRJt/view?usp=sharing) | [link](https://drive.google.com/file/d/1VJAKZ_j7kQFpocv_vDzER47CXWwAAE8h/view?usp=sharing) |
-| ResNet-101 | 57.3 | 60.3 | [weight](https://drive.google.com/file/d/1EMOwwAygdSfTZiVxI4f0UaVd7P6JzmuM/view?usp=sharing) | [model](https://drive.google.com/file/d/1FCHAAMf-HXPhZGTZp748l3pn6FfMyV1L/view?usp=sharing) | [link](https://drive.google.com/file/d/1cFxjVW2RlwjoVYR1M6NlkRpv9L3tPlcZ/view?usp=sharing) | [link](https://drive.google.com/file/d/1RPnFPqf7iiVypc7QbN-ev6s6xfmD-m5c/view?usp=sharing) |
-| Swin-T | 58.7 | 61.2 | [weight](https://drive.google.com/file/d/155sZm6yE7YQ8Y8Ln0ShaVZKLejYORqTQ/view?usp=sharing) | [model](https://drive.google.com/file/d/19jIbjRRUGDhfnI604Pw7hcGP5DqdvVtl/view?usp=sharing) | [link](https://drive.google.com/file/d/1eZZ-2zz0gdCwPrislGP3WKAHk-RnNY7v/view?usp=sharing) | [link](https://drive.google.com/file/d/1O9B35oieBfo7sRjxTpSyFz52J2AAHLce/view?usp=sharing) |
-| Swin-L | 62.4 | 63.3 | [weight](https://drive.google.com/file/d/1eJKNHvk_KcFuT4k6Te7HDuuSXH2DVOY5/view?usp=sharing) | [model](https://drive.google.com/file/d/1_uwwlWv8AXhHfE8GVId7YtGraznRebaZ/view?usp=sharing) | [link](https://drive.google.com/file/d/1uxBwbKdlilaCNt-RbdcPj1LshA-WY9Q6/view?usp=sharing) | [link](https://drive.google.com/file/d/16kVmJzv5oXzk3zGcfMcb2sEiN6HTOCmW/view?usp=sharing) |
-| Video-Swin-T* | 56.0 | - | - | [model](https://drive.google.com/file/d/1V-SZ64BDZtipRJNSEhZWJaRcFnMpTz_h/view?usp=sharing) | [link](https://drive.google.com/file/d/1m9G423Ou82q9ZOQfxoaxn9ERntVoVzFK/view?usp=sharing) | - |
-| Video-Swin-T | 59.4 | - | [weight](https://drive.google.com/file/d/1g9Dm1vLdwpwSKVtIZzWKPUk2-zK3IbQa/view?usp=sharing) | [model](https://drive.google.com/file/d/17RL6o_A57giHT-bMuP7ysUGogueT7wYm/view?usp=sharing) | [link](https://drive.google.com/file/d/1nhjvDWgMWufMGAjOKesgyLRB_-Ct6kXP/view?usp=sharing) | - |
-| Video-Swin-S | 60.1 | - | [weight](https://drive.google.com/file/d/1GrhFhsUidsVs7-dhY8NkVgWfBZdeit9C/view?usp=sharing) | [model](https://drive.google.com/file/d/1Yf3gwW6YV7jh2Ya_Ew0q5ZNrdabzzDTr/view?usp=sharing) | [link](https://drive.google.com/file/d/1mhb0UAaJkTFYmGrwXHHJuaXVp-0BSkgm/view?usp=sharing) | - |
-| Video-Swin-B | 62.9 | - |[weight](https://drive.google.com/file/d/1MJ1362zjqu-uZdXsSQH6pI1QOFqwv5lY/view?usp=sharing)  | [model](https://drive.google.com/file/d/1nw7D3C_RrKTMzwtzjo39snbYLbv73anH/view?usp=sharing) | [link](https://drive.google.com/file/d/1dAQdr2RqCxYUmOVQ4jFE-vv5zavNhz7B/view?usp=sharing) | - |
+| ResNet-50 | 55.6 | 59.4 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EepGibYBfyRGt_QedfE9SywBLF3v-bjoxo2R9E9YDqmIcw?e=7J7k1J) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EVRsV76e78lKuekbMLHgwlsBdG09pRVafEuBPN_wKXjJ1Q?e=SMeZlS) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EZ8tt46rv4xIjoiUkHGGPjwB1Yi6w2H-9BBVTyINOINmgQ?e=yWbDjp) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EZp0dd70UCNGvla2g25lTawB2AZyCDPN7QMl_KeESI5dkQ?e=1BfD2W) |
+| ResNet-101 | 57.3 | 60.3 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESTAK4QCkMdNkVlQz1dd7GoBo3n_i9K4_FK4YLFBAFvBrg?e=Y3PlD5) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EaHNEx5MWR9HjTNh__W3IlYBIfhGd-nHKrshJ-MOyvofdw?e=shM4Ok) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EbrNhmt-wiNIv2tmQ-gOupgBrSBzhM1OJlNvid0J_8cPJg?e=8Fgets) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EWSPiUjgmORMuyaL91ueY1oBl159pO4k7RQYF-9eWrSJ-A?e=81hzDF) |
+| Swin-T | 58.7 | 61.2 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESdasB6JLydDrs6mf68FrLMBuQBLBF7y_uxdveWl9oK68w?e=H5zeqk) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EUxJmp6QYR5LoUK12Wj55E0Bm0o6_9zl3OvOBN5KE9kJkg?e=SRS0qL) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EUMveO7cX1VAq48IAk9c6zoBc_Zy5f1kwa5h6C9q4LYt0A?e=iz9uMg) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcnHrx4S5KVPqFYhr9CCARoBftAxdtldaWyGQAougBFnig?e=KG1LDq) |
+| Swin-L | 62.4 | 63.3 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESngRLeZfV1LtrlZ7x5cVo4BR5_deWfov4Igt28LZGoDew?e=AVAsws) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcCfv66Vl0xDl-rFukByXyQBEFNRTyLeVEKoeWrIvXmjNg?e=GcVTIr) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EdI15ujU4UpBilI4wt5lUQQB98JOq6KnMV5GHh77QiAn-w?e=o91ITz) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ETmJUpRGgyFHlGdEhcXqzekBDAfbFTExfHtmA4wHKCOkLw?e=l951Ea) |
+| Video-Swin-T* | 56.0 | - | - | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EYXL3SKYOsRGtfSN-Wr9JCUBDvcXbbp67Sa4hs5dEDplxw?e=g2hGWo) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EUosvwAGikhGsyTPEOELMjEBQM-HZOaJ3fqcJjG2SV-5YA?e=vSUD12) | - |
+| Video-Swin-T | 59.4 | - | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EUNTvEGXlsdLv3gicAbHfN0Ba23kcyy2-Z15IJTDLXKx_A?e=GqAYxT) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EZI2zogC5mtDu3KL5MVIaXIBzG3_3yTthoqyxjfTsGrvzA?e=lT5sVp) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EVKtr-5ZK5NIhhTvaUXGdRcBcHEGahAevUh1YCO2nvFfaQ?e=9Am7dc) | - |
+| Video-Swin-S | 60.1 | - | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/Eb015DXX1LhDpiDoojxJTu8BBQ8ACicpVS8gwFStRJDK1w?e=NC368q) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EZI2zogC5mtDu3KL5MVIaXIBzG3_3yTthoqyxjfTsGrvzA?e=QEAdwh) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EUUJn8Zu7mlCnxLP8eNSbpIBvoEqz88EOg3y9ftQHhAhCw?e=RnSwxX) | - |
+| Video-Swin-B | 62.9 | - |[weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ETDj4aGm_pRMuz8hLBi9Jy0BEFnsco0Uoz5qQEhWrxdNKQ?e=kKImMX)  | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EduJ_zS-Vd5Hn1qexxv5_mYBKX_8kRBOeX6dlfhED_GSwg?e=TxTWHb) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EZKduAM1fLpJrLK7l762xZ8BesK7zWKBjR0b9dFbCWhbfQ?e=SlAdyg) | - |
 
 \* indicates the model is trained from scratch.
 
 Joint training with Ref-COCO/+/g datasets.
 | Backbone| J&F | J | F | Model | Submission | 
 | :----: | :----: | :----: | :----: | :----: | :----: |
-| ResNet-50 | 58.7 | 57.4 | 60.1 | [model](https://drive.google.com/file/d/1tXgC_GRmQCvHjhlNoT0uXc_0oQ21d0hk/view?usp=sharing) | [link](https://drive.google.com/file/d/1Vbrl11mBfjwpM-H4DOleyD1i2STCN-SM/view?usp=sharing) |
-| ResNet-101 | 59.3 | 58.1 | 60.4 | [model](https://drive.google.com/file/d/1LUflgRgwZgTpYr5V9qeDKTIlBjLqHOVj/view?usp=sharing) | [link](https://drive.google.com/file/d/1BANQcqY34SebORZ9_PTF4C-QWuCJl2_W/view?usp=sharing) |
-| Swin-L | 64.2 | 62.3 | 66.2 | [model](https://drive.google.com/file/d/1JeppEr8m0O9844xncSfSZrYE_NH8oXb7/view?usp=sharing) | [link](https://drive.google.com/file/d/14klluhPeQhhNKl3EBibtiziChSKfBHU0/view?usp=sharing) |
-| Video-Swin-T | 62.6 | 59.9 | 63.3 | [model](https://drive.google.com/file/d/1rVO2ZC4U4symSh9Ifgg68YGdYBZH00MT/view?usp=sharing) | [link](https://drive.google.com/file/d/1-i67hTmo-qpyICbJ9vbTeQdPaL2VnbXQ/view?usp=sharing) |
-| Video-Swin-S | 63.3 | 61.4 | 65.2 | [model](https://drive.google.com/file/d/15ifI2yd9oDqMB05DgjhNVMe2MGXVvZnj/view?usp=sharing) | [link](https://drive.google.com/file/d/1II1gZl99FGECkS7DR6B8MszxAKadu-9y/view?usp=sharing) |
-| Video-Swin-B | 64.9 | 62.8 | 67.0 | [model](https://drive.google.com/file/d/19XO5VoR6qTE3VNLF-IjYzabL-2tb9E14/view?usp=sharing) | [link](https://drive.google.com/file/d/11FTV-B3MkWfl4azNI-aRmiRqQ9TBXG03/view?usp=sharing) |
+| ResNet-50 | 58.7 | 57.4 | 60.1 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcxDd8USU4BGo_HlgukKiG4BXLvetkjLdi3_-N-3SpjMvw?e=tAPNFv) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EYmORJYVsUJLp8NnbtfnZigBCM-IJ5oomZZrXEbNPhIyww?e=Bh5eYx) |
+| ResNet-101 | 59.3 | 58.1 | 60.4 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EShgDd650nBBsfoNEiUbybcB84Ma5NydxOucISeCrZmzHw?e=YOSszd) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcW6Lt67k0RCjr_FT2XOxVcBUcrFSlFJo19-YdFZpBxOsg?e=avszXt) |
+| Swin-L | 64.2 | 62.3 | 66.2 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/Ec_qxgvukuBPr-GQ_3gNcX0B8VCHCqIUvXX-0ydtk1s7HQ?e=7X99M1) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EbNV0kBQ7ZVDrfRafG6B3CwBbpM-yMJtQ9jI01HwEgWXBQ?e=FzoSrT) |
+| Video-Swin-T | 62.6 | 59.9 | 63.3 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EdCVQzM4HxxIvdZUBLiNpBwBrcPTLlFEqxHVxOzx0geF3A?e=1ZSZvK) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EdAT37_CDDZKkbC1U9MDxTYBkR1DVwTn0zxzqEvgrG-5ig?e=6P065H) |
+| Video-Swin-S | 63.3 | 61.4 | 65.2 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EdYbp2xp-xFFuolQopvILNMBYRq88ksNjpcv-zKfGzHxbA?e=NqRzTf) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EU6d1rGtkfBFkIoA-xUH2koBwdKW2fPCghYTzzd49KvFLQ?e=FMsJLT) |
+| Video-Swin-B | 64.9 | 62.8 | 67.0 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EY3-adM5LptFj--klo5gWgsBhpSDOps91j-C81sBI8i9Hw?e=n19q0w) | [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcSdF-jsBmZLn7iUzc3zXTUBnlfnXDFxPP7mtRbC1ttJwg?e=0wzR0t) |
 
 
 
@@ -133,9 +133,9 @@ As described in the paper, we report the results using the model trained on Ref-
 
 | Backbone| J&F | J | F | Model | 
 | :----: | :----: | :----: | :----: | :----: |
-| ResNet-50 | 58.5 | 55.8 | 61.3 | [model](https://drive.google.com/file/d/1VKYIbd3tiuLyWkh7ajnIiA3HZ3_IdvxV/view?usp=sharing) |
-| Swin-L | 60.5 | 57.6 | 63.4 | [model](https://drive.google.com/file/d/1_uwwlWv8AXhHfE8GVId7YtGraznRebaZ/view?usp=sharing) |
-| Video-Swin-B | 61.1 | 58.1 | 64.1 | [model](https://drive.google.com/file/d/1nw7D3C_RrKTMzwtzjo39snbYLbv73anH/view?usp=sharing) |
+| ResNet-50 | 58.5 | 55.8 | 61.3 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EVRsV76e78lKuekbMLHgwlsBdG09pRVafEuBPN_wKXjJ1Q?e=SMeZlS) |
+| Swin-L | 60.5 | 57.6 | 63.4 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcCfv66Vl0xDl-rFukByXyQBEFNRTyLeVEKoeWrIvXmjNg?e=GcVTIr) |
+| Video-Swin-B | 61.1 | 58.1 | 64.1 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EduJ_zS-Vd5Hn1qexxv5_mYBKX_8kRBOeX6dlfhED_GSwg?e=TxTWHb) |
 
 
 ### A2D-Sentences
@@ -144,10 +144,10 @@ The pretrained models are the same as those provided for Ref-Youtube-VOS.
 
 | Backbone| Overall IoU | Mean IoU | mAP  | Pretrain | Model |
 | :----: | :----: | :----: | :----: | :----: | :----: |
-| Video-Swin-T* | 72.3 | 64.1 | 48.6 | - | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) \| [log](https://drive.google.com/file/d/1JhsXgcWOYv97u6tpAUnBi9-D3mxcHXzO/view?usp=sharing) |
-| Video-Swin-T | 77.6 | 69.6 | 52.8 | [weight](https://drive.google.com/file/d/1g9Dm1vLdwpwSKVtIZzWKPUk2-zK3IbQa/view?usp=sharing) | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) \| [log](https://drive.google.com/file/d/1xjevouL3a1gHZN5KHtA07Cpa07R4T1Qi/view?usp=sharing) |
-| Video-Swin-S | 77.7 | 69.8 | 53.9 | [weight](https://drive.google.com/file/d/1GrhFhsUidsVs7-dhY8NkVgWfBZdeit9C/view?usp=sharing) | [model](https://drive.google.com/file/d/1ng2FAX9J4FyQ7Bq1eeQC9Vvv1W8JZmek/view?usp=sharing) \| [log](https://drive.google.com/file/d/1Uu72THexbtEje4aKXR7Q2Yd4zyPmQsi3/view?usp=sharing) |
-| Video-Swin-B | 78.6 | 70.3 | 55.0 | [weight](https://drive.google.com/file/d/1MJ1362zjqu-uZdXsSQH6pI1QOFqwv5lY/view?usp=sharing) | [model](https://drive.google.com/file/d/1WlNjKS_Li-1KoUzuPM4MRM4b-oK2Ka7c/view?usp=sharing) \| [log](https://drive.google.com/file/d/1tH-f9_U0gY-iNfXm6GRyttJp3uvm5NQw/view?usp=sharing) |
+| Video-Swin-T* | 72.3 | 64.1 | 48.6 | - | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EfJs5WPRKfxEvifnIO3impABNgydbiO5qqI_uCF6LYKlCQ?e=mSRLCQ) \| [log](https://connecthkuhk-my.sharepoint.com/:t:/g/personal/wjn922_connect_hku_hk/EVJyHq6zy6ZGuxE--K9nECwB333gFkP9vjXKjh9Mt0otcA?e=Kwnngd) |
+| Video-Swin-T | 77.6 | 69.6 | 52.8 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EUNTvEGXlsdLv3gicAbHfN0Ba23kcyy2-Z15IJTDLXKx_A?e=GqAYxT) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/Ed3po2mJGQZHivGwMJJg8oMBumXm3Ye94oPH6wfRFK1d8A?e=NG2E9c) \| [log](https://connecthkuhk-my.sharepoint.com/:t:/g/personal/wjn922_connect_hku_hk/EfO50qMduZNGvFcYJdRVKzABIJ8ZHhMiKWWvmDM14K9mnw?e=dgInSK) |
+| Video-Swin-S | 77.7 | 69.8 | 53.9 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/Eb015DXX1LhDpiDoojxJTu8BBQ8ACicpVS8gwFStRJDK1w?e=NC368q) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EbAiydTvu41KsMYBEFzy_d8B0Nyy1fIf2tWG7Ao-FYD0Ug?e=tmaVAu) \| [log](https://connecthkuhk-my.sharepoint.com/:t:/g/personal/wjn922_connect_hku_hk/EZl6sHhFDTBMgVGKVp18sqwBouTTnwPdirWId4PR6klTfg?e=17lDVV) |
+| Video-Swin-B | 78.6 | 70.3 | 55.0 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ETDj4aGm_pRMuz8hLBi9Jy0BEFnsco0Uoz5qQEhWrxdNKQ?e=kKImMX) | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EeP1aneDDbBCo9HnMTbNjsgBpMqrgfIzJzF_jVROpZ2GWQ?e=YmkNHC) \| [log](https://connecthkuhk-my.sharepoint.com/:t:/g/personal/wjn922_connect_hku_hk/EUnV-O_IAe5Mkyupsd7NosMBxUg8OjqepmQbpbV0PFB4gQ?e=W14suT) |
 
 \* the model is trained from scratch and set `--num_frames 6`.
 
@@ -158,10 +158,10 @@ As described in the paper, we report the results using the model trained on A2D-
 
 | Backbone| Overall IoU | Mean IoU | mAP  | Model | 
 | :----: | :----: | :----: | :----: | :----: | 
-| Video-Swin-T* | 70.0 | 69.3 | 39.1 | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) | 
-| Video-Swin-T | 71.9 | 71.0 | 42.2 | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) |
-| Video-Swin-S | 72.8 | 71.5 | 42.4 | [model](https://drive.google.com/file/d/1ng2FAX9J4FyQ7Bq1eeQC9Vvv1W8JZmek/view?usp=sharing) |
-| Video-Swin-B | 73.0 | 71.8 | 43.7 | [model](https://drive.google.com/file/d/1WlNjKS_Li-1KoUzuPM4MRM4b-oK2Ka7c/view?usp=sharing) | 
+| Video-Swin-T* | 70.0 | 69.3 | 39.1 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EfJs5WPRKfxEvifnIO3impABNgydbiO5qqI_uCF6LYKlCQ?e=mSRLCQ) | 
+| Video-Swin-T | 71.9 | 71.0 | 42.2 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/Ed3po2mJGQZHivGwMJJg8oMBumXm3Ye94oPH6wfRFK1d8A?e=NG2E9c) |
+| Video-Swin-S | 72.8 | 71.5 | 42.4 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EbAiydTvu41KsMYBEFzy_d8B0Nyy1fIf2tWG7Ao-FYD0Ug?e=tmaVAu) |
+| Video-Swin-B | 73.0 | 71.8 | 43.7 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EeP1aneDDbBCo9HnMTbNjsgBpMqrgfIzJzF_jVROpZ2GWQ?e=YmkNHC) | 
 
 \* the model is trained from scratch and set `--num_frames 6`.
 
@@ -175,19 +175,19 @@ REC (referring epression understanding):
 
 | Backbone| RefCOCO | RefCOCO+ | RefCOCOg  | Model | 
 | :----: | :----: | :----: | :----: | :----: | 
-| ResNet-50 | 85.0 | 79.2 | 79.0 | [weight](https://drive.google.com/file/d/1mJd5zBUv4EYLOKQ0H87-NeAuInyrn577/view?usp=sharing) | 
-| ResNet-101 | 85.4 | 75.8 | 79.9 | [weight](https://drive.google.com/file/d/1EMOwwAygdSfTZiVxI4f0UaVd7P6JzmuM/view?usp=sharing) |
-| Swin-T | 86.7 | 77.2 | 80.6 | [weight](https://drive.google.com/file/d/155sZm6yE7YQ8Y8Ln0ShaVZKLejYORqTQ/view?usp=sharing) |
-| Swin-L | 89.8 | 80.0 | 83.9 | [weight](https://drive.google.com/file/d/1eJKNHvk_KcFuT4k6Te7HDuuSXH2DVOY5/view?usp=sharing) | 
+| ResNet-50 | 85.0 | 79.2 | 79.0 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EepGibYBfyRGt_QedfE9SywBLF3v-bjoxo2R9E9YDqmIcw?e=7J7k1J) | 
+| ResNet-101 | 85.4 | 75.8 | 79.9 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESTAK4QCkMdNkVlQz1dd7GoBo3n_i9K4_FK4YLFBAFvBrg?e=Y3PlD5) |
+| Swin-T | 86.7 | 77.2 | 80.6 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESdasB6JLydDrs6mf68FrLMBuQBLBF7y_uxdveWl9oK68w?e=H5zeqk) |
+| Swin-L | 89.8 | 80.0 | 83.9 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESngRLeZfV1LtrlZ7x5cVo4BR5_deWfov4Igt28LZGoDew?e=AVAsws) | 
 
 RIS (referring image segmentation):
 
 | Backbone| RefCOCO | RefCOCO+ | RefCOCOg  | Model | 
 | :----: | :----: | :----: | :----: | :----: | 
-| ResNet-50 | 71.1 | 64.1 | 64.1 | [weight](https://drive.google.com/file/d/1mJd5zBUv4EYLOKQ0H87-NeAuInyrn577/view?usp=sharing) | 
-| ResNet-101 | 71.8 | 61.1 | 64.9 | [weight](https://drive.google.com/file/d/1EMOwwAygdSfTZiVxI4f0UaVd7P6JzmuM/view?usp=sharing) |
-| Swin-T | 72.9 | 62.4 | 66.1 | [weight](https://drive.google.com/file/d/155sZm6yE7YQ8Y8Ln0ShaVZKLejYORqTQ/view?usp=sharing) |
-| Swin-L | 77.1 | 65.8 | 69.3 | [weight](https://drive.google.com/file/d/1eJKNHvk_KcFuT4k6Te7HDuuSXH2DVOY5/view?usp=sharing) | 
+| ResNet-50 | 71.1 | 64.1 | 64.1 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EepGibYBfyRGt_QedfE9SywBLF3v-bjoxo2R9E9YDqmIcw?e=7J7k1J) | 
+| ResNet-101 | 71.8 | 61.1 | 64.9 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESTAK4QCkMdNkVlQz1dd7GoBo3n_i9K4_FK4YLFBAFvBrg?e=Y3PlD5) |
+| Swin-T | 72.9 | 62.4 | 66.1 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESdasB6JLydDrs6mf68FrLMBuQBLBF7y_uxdveWl9oK68w?e=H5zeqk) |
+| Swin-L | 77.1 | 65.8 | 69.3 | [weight](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/ESngRLeZfV1LtrlZ7x5cVo4BR5_deWfov4Igt28LZGoDew?e=AVAsws) | 
 
 
 ## Get Started
