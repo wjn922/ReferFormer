@@ -60,7 +60,7 @@ Please refer to [install.md](docs/install.md) for installation.
 
 Please refer to [data.md](docs/data.md) for data preparation.
 
-We provide the pretrained model for different visual backbones. You may download them [here](https://drive.google.com/drive/u/0/folders/11_qps3q75aH41IYHlXToyeIBUKkfdqso) and put them in the directory `pretrained_weights`.
+We provide the pretrained model for different visual backbones. You may download them [here]([https://drive.google.com/drive/u/0/folders/11_qps3q75aH41IYHlXToyeIBUKkfdqso](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wjn922_connect_hku_hk/Et657S8tgGRNguj2hf4azsUBn1UVbMNLAmyjcRWGobs2_A?e=xobQFH)) and put them in the directory `pretrained_weights`.
 
 <!-- For the Swin Transformer and Video Swin Transformer backbones, the weights are intialized using the pretrained model provided in the repo [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) and [Video-Swin-Transformer](https://github.com/SwinTransformer/Video-Swin-Transformer). For your convenience, we upload the pretrained model in the google drives [swin_pretrained](https://drive.google.com/drive/u/0/folders/1QWLayukDJYAxTFk7NPwerfso3Lrx35NL) and [video_swin_pretrained](https://drive.google.com/drive/u/0/folders/19qb9VbKSjuwgxsiPI3uv06XzQkB5brYM). -->
 
