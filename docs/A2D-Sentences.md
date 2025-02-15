@@ -6,10 +6,10 @@ The pretrained models are the same as those provided for Ref-Youtube-VOS.
 
 | Backbone| Overall IoU | Mean IoU | mAP  | Pretrain | Model |
 | :----: | :----: | :----: | :----: | :----: | :----: |
-| Video-Swin-T* | 72.3 | 64.1 | 48.6 | - | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) \| [log](https://drive.google.com/file/d/1JhsXgcWOYv97u6tpAUnBi9-D3mxcHXzO/view?usp=sharing) |
-| Video-Swin-T | 77.6 | 69.6 | 52.8 | [weight](https://drive.google.com/file/d/1g9Dm1vLdwpwSKVtIZzWKPUk2-zK3IbQa/view?usp=sharing) | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) \| [log](https://drive.google.com/file/d/1xjevouL3a1gHZN5KHtA07Cpa07R4T1Qi/view?usp=sharing) |
-| Video-Swin-S | 77.7 | 69.8 | 53.9 | [weight](https://drive.google.com/file/d/1GrhFhsUidsVs7-dhY8NkVgWfBZdeit9C/view?usp=sharing) | [model](https://drive.google.com/file/d/1ng2FAX9J4FyQ7Bq1eeQC9Vvv1W8JZmek/view?usp=sharing) \| [log](https://drive.google.com/file/d/1Uu72THexbtEje4aKXR7Q2Yd4zyPmQsi3/view?usp=sharing) |
-| Video-Swin-B | 78.6 | 70.3 | 55.0 | [weight](https://drive.google.com/file/d/1MJ1362zjqu-uZdXsSQH6pI1QOFqwv5lY/view?usp=sharing) | [model](https://drive.google.com/file/d/1WlNjKS_Li-1KoUzuPM4MRM4b-oK2Ka7c/view?usp=sharing) \| [log](https://drive.google.com/file/d/1tH-f9_U0gY-iNfXm6GRyttJp3uvm5NQw/view?usp=sharing) |
+| Video-Swin-T* | 72.3 | 64.1 | 48.6 | - | [model](https://drive.google.com/file/d/1lK3Hulc8K6croRTrzJmz8QMhndQYDzsf/view?usp=sharing) \| [log](https://drive.google.com/file/d/1_uzt6iI6TfM3cQbIblOI5_siFDxCa4mj/view?usp=sharing) |
+| Video-Swin-T | 77.6 | 69.6 | 52.8 | [weight](https://drive.google.com/file/d/1qaEuOocLOZoj89unhZP3oN708ofmqopS/view?usp=sharing) | [model](https://drive.google.com/file/d/1b56oyvJZTY70ztCgDhD5vBG7fZohqzYE/view?usp=sharing) \| [log](https://drive.google.com/file/d/1n_Swnok9I2uaZtCHpBzAC53J3zILh0Rk/view?usp=sharing) |
+| Video-Swin-S | 77.7 | 69.8 | 53.9 | [weight](https://drive.google.com/file/d/1SHzlzxE-KQeoGoYucdnPZtw_uz2ymgxn/view?usp=sharing) | [model](https://drive.google.com/file/d/1edp5ZjCr4OG-8E9Co2_UgknoKMWUCB5y/view?usp=sharing) \| [log](https://drive.google.com/file/d/1sOXhiCILSJTAiPYixyEQZLInzLfvFHXb/view?usp=sharing) |
+| Video-Swin-B | 78.6 | 70.3 | 55.0 | [weight](https://drive.google.com/file/d/1gbyknvuOiKpxK1kljxFnt1k5Jxp3R1jv/view?usp=sharing) | [model](https://drive.google.com/file/d/11UdnixY1ZQLpFqEq3_mdM4ELXGhrG7YD/view?usp=sharing) \| [log](https://drive.google.com/file/d/1UcSGzKKDHoClHv87tg4sQi4sbH4Vr01j/view?usp=sharing) |
 
 \* the model is trained from scratch and set `--num_frames 6`.
 
