@@ -133,9 +133,9 @@ As described in the paper, we report the results using the model trained on Ref-
 
 | Backbone| J&F | J | F | Model | 
 | :----: | :----: | :----: | :----: | :----: |
-| ResNet-50 | 58.5 | 55.8 | 61.3 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EVRsV76e78lKuekbMLHgwlsBdG09pRVafEuBPN_wKXjJ1Q?e=SMeZlS) |
-| Swin-L | 60.5 | 57.6 | 63.4 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EcCfv66Vl0xDl-rFukByXyQBEFNRTyLeVEKoeWrIvXmjNg?e=GcVTIr) |
-| Video-Swin-B | 61.1 | 58.1 | 64.1 | [model](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/wjn922_connect_hku_hk/EduJ_zS-Vd5Hn1qexxv5_mYBKX_8kRBOeX6dlfhED_GSwg?e=TxTWHb) |
+| ResNet-50 | 58.5 | 55.8 | 61.3 | [model](https://drive.google.com/file/d/1TBykzTRiOEbpM2YEYnDICyqjwkvlD2cR/view?usp=sharing) |
+| Swin-L | 60.5 | 57.6 | 63.4 | [model](https://drive.google.com/file/d/103N96BbQnT9P57aGx7TCsZVyGr3ejFdl/view?usp=sharing) |
+| Video-Swin-B | 61.1 | 58.1 | 64.1 | [model](https://drive.google.com/file/d/1_dS8hyZJFdijvsDVmoVcHjWhRE6sAXvS/view?usp=sharing) |
 
 
 ### A2D-Sentences
