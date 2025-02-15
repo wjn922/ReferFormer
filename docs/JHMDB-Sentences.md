@@ -6,10 +6,10 @@ As described in the paper, we report the results using the model trained on A2D-
 
 | Backbone| Overall IoU | Mean IoU | mAP  | Model | 
 | :----: | :----: | :----: | :----: | :----: | 
-| Video-Swin-T* | 70.0 | 69.3 | 39.1 | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) | 
-| Video-Swin-T | 71.9 | 71.0 | 42.2 | [model](https://drive.google.com/file/d/1z-HO71IcFOZ9A6KD71wAXkbiQgKDpSp7/view?usp=sharing) |
-| Video-Swin-S | 72.8 | 71.5 | 42.4 | [model](https://drive.google.com/file/d/1ng2FAX9J4FyQ7Bq1eeQC9Vvv1W8JZmek/view?usp=sharing) |
-| Video-Swin-B | 73.0 | 71.8 | 43.7 | [model](https://drive.google.com/file/d/1WlNjKS_Li-1KoUzuPM4MRM4b-oK2Ka7c/view?usp=sharing) | 
+| Video-Swin-T* | 70.0 | 69.3 | 39.1 | [model](https://drive.google.com/file/d/1lK3Hulc8K6croRTrzJmz8QMhndQYDzsf/view?usp=sharing) | 
+| Video-Swin-T | 71.9 | 71.0 | 42.2 | [model](https://drive.google.com/file/d/1b56oyvJZTY70ztCgDhD5vBG7fZohqzYE/view?usp=sharing) |
+| Video-Swin-S | 72.8 | 71.5 | 42.4 | [model](https://drive.google.com/file/d/1edp5ZjCr4OG-8E9Co2_UgknoKMWUCB5y/view?usp=sharing) |
+| Video-Swin-B | 73.0 | 71.8 | 43.7 | [model](https://drive.google.com/file/d/11UdnixY1ZQLpFqEq3_mdM4ELXGhrG7YD/view?usp=sharing) | 
 
 \* the model is trained from scratch and set `--num_frames 6`.
 
